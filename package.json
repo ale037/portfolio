@@ -1,0 +1,26 @@
+{
+  "name": "design-systems-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Портфолио российских дизайн-систем из каталога designsystemsclub.ru с витриной в Storybook",
+  "type": "module",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build -o storybook-static"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.4.5",
+    "@storybook/addon-interactions": "^8.4.5",
+    "@storybook/addon-links": "^8.4.5",
+    "@storybook/blocks": "^8.4.5",
+    "@storybook/react": "^8.4.5",
+    "@storybook/react-vite": "^8.4.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "storybook": "^8.4.5",
+    "vite": "^5.4.11"
+  }
+}
